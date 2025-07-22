@@ -1,0 +1,1318 @@
+Tokens	Regularised	Category	Subjects	
+The text to be recognised in the description. Each word or item of punctuation is a "token". Each token must be placed in quotes and separated by a comma. Square brackets must be placed around the finished expression. 	An optional, arbitrary string to denote equivalent terms. For example, there are lots of ways to write "marks of flogging". By giving all of these terms the same regularised form ("marks of flogging"), they are treated as interchangeable in the program code. At present, this column is not used. Even if it used in the future, it is optional. Please leave it blank unless you want to denote that several terms represent different ways of writing the same thing.	A category denoting the role which this term plays in the description. For example, "body specifier", "design" or "written words". Please see the second sheet for explanations of these categories.	A list of subjects which are considered relevant to this term. Used only for tattoo-related categories. For example, "love" or "nationalidentity". Subjects are always single words, run together if neccessary. Separate them with a space. For example "religion justicepunishment"	
+				
+["nil"]	nil	nil		
+["none"]	nil	nil		
+				
+[","]	comma	separator		
+[";"]	semicolon	separator		
+["."]	full stop	separator		
+[":"]	colon	separator		
+				
+["\""]	quote	quote		
+				
+[",", "and"]	and	and		
+["and"]	and	and		
+				
+				
+["etc"]	etc	etc		
+["&c"]	etc	etc		
+
+
+
+More new body terms
+
+["axilla"]		body		
+["bladder"]		body		
+["calcaneus"]		body		
+["condule"]		body		
+["condyle"]		body		
+["cranium"]		body		
+["heel"]		body		
+["ilium"]		body		
+["internal"]		body		
+["inward"]		body		
+["liver"]		body		
+["lumbar", "region"]		body		
+["maxilla"]		body		
+["occiput"]		body		
+["olecranon"]		body		
+["penis"]		body		
+["rectum"]		body		
+["sacrum"]		body		
+["stump"]		body		
+["temporal"]		body		
+["tongue"]		body		
+["ulna"]		body		
+["urethra"]		body		
+["uterus"]		body		
+["vagina"]		body		
+["womb"]		body		
+
+
+
+The following terms added for the hospital records
+
+["through", "foot"]		injury		
+["laceration"]		injury		
+["laceratd"]		injury		
+["inury"]		injury		
+["bite"]		injury		
+["bitted"]		injury		
+["strain"]		injury		
+["strained"]		injury		
+["spained"]		injury		
+["spain"]		injury		
+["luxated"]		injury		
+["puncture"]		injury		
+["puncture", "wound"]		injury		
+["punctured"]		injury		
+["shot"]		injury		
+["gunshot"]		injury		
+["gunshot", "wound"]		injury		
+["concussion"]		injury		
+["concussions"]		injury		
+["concusison"]		injury		
+["nail", "through"]		injury		
+["nail", "in"]		injury		
+["compound"]		injury		
+["strangled"]		injury		
+["swallowed", "a", "pin"]		injury		
+["suffocation"]		injury		
+["suffocated"]		injury		
+["struck", "by", "lightening"]		injury		
+["burned"]		injury		
+["mortar", "in"]		injury		
+["splintered"]		injury		
+["shot", "in"]		injury		
+["contuson"]		injury		
+["drowned"]		injury		
+["compression"]		injury		
+["displaced"]		injury		
+["limp"]		injury		
+["kick"]		injury		
+["stab", "wound"]		injury		
+["hit"]		injury		
+["flesh", "mark"]		injury		
+
+["compound", "fractured"]		injury		
+["compound", "fracture"]		injury		
+["dislocation"]		injury		
+["gun", "shot", "wound"]		injury		
+["hurt", "by", "a", "fall"]		injury		
+["killed", "by", "a", "fall"]		injury		
+["frost", "bite"]		injury		
+
+["scar", "from"]		injury		
+["mark", "from"]		injury		
+["scald", "scar", "from"]		injury		
+
+["subluxation"]		injury		
+["avulsion"]		injury		
+["soft", "tissue", " injury  "]		injury		
+["sharp", "force", " trauma  "]		injury		
+["blunt", "force", " trauma"]		injury		
+
+["amputation"]		injury		
+["soft", "tissue", " trauma"]		injury		
+
+["fracture", "with", "dislocation"]		injury		
+["fractured", "with", "dislocation"]		injury		
+["muscle", "injury"]		injury		
+
+["burnt"]		injury		
+["hurt", "his"]		injury		
+["cut", "his"]		injury		
+
+["femur"]		body		
+["collarbone"]		body		
+["pelvis"]		body		
+["metacarpal"]		body		
+["manual", "phalanx"]		body		
+["metatarsal"]		body		
+["nasal"]		body		
+["vertebral"]		body		
+["tibia"]		body		
+["lower", "leg"]		body		
+["sternum"]		body		
+["chestbone"]		body		
+["humerus"]		body		
+["upper", "arm"]		body		
+["perineum"]		body		
+["testes"]		body		
+["genitals"]		body		
+["fingertip"]		body		
+
+["by", "cat"]		cause		
+["from", "bite"]		cause		
+
+*** END OF NEW
+
+
+
+
+
+["leg"]	leg	body	
+["legs"]	legs	body		
+["loins"]	loins	body		
+["clavicle"]	clavicle	body		
+["clavicles"]	clavicles	body		
+["spine"]	clavicle	body		
+["scrotum"]	scrotum	body		
+["skull"]	skull	body		
+["iliium"]	iliium	body		
+["fibula"]	fibula	body		
+["radius"]	radius	body		
+["testicle"]	testicle	body		
+["testicles"]	testicles	body		
+["abdomen"]	abdomen	body		
+["patella"]	patella	body		
+["scapula"]	patella	body		
+["thighs"]	thighs	body		
+["pubis"]	pubis	body		
+["private", "parts"]	private parts	body		
+["privates"]	privates	body		
+
+["side", "of"]	side	body specifier		
+["side"]	side	body		
+["sides"]	sides	body		
+
+["bit"]	bitten	injury		
+["bitten"]	bitten	injury		
+["injury"]	injury	injury		
+["hurt"]	hurt	injury		
+["lacerated"]	lacerated	injury		
+["lacerated", "wound"]	lacerated wound	injury		
+["bruises"]	bruises	injury		
+["bruised"]	bruised	injury		
+["jammed"]	jammed	injury		
+["scalded"]	scalded	injury		
+["sprained"]	sprained	injury		
+["accident"]	accident	injury		
+["kicked"]	kicked	injury		
+["wounded"]	wounded	injury		
+["stabbed"]	stabbed	injury		
+["internal", "injury"]	internal injury	injury		
+["injury", "internal"]	internal injury	injury		
+["internal", "bruise"]	internal bruise	injury		
+["bruise", "internal"]	internal bruise	injury		
+["inward", "injury"]	inward injury	injury		
+["injury", "inward"]	inward injury	injury		
+["inward", "bruise"]	inward bruise	injury		
+["bruise", "inward"]	inward bruise	injury		
+["sprain"]	sprain	injury		
+["sprains"]	sprains	injury		
+["scalds"]	sprain	injury		
+["contused"]	contused	injury		
+["contused", "wound"]	contused wound	injury		
+["contusion"]	contusion	injury		
+["contusions"]	contusions	injury		
+["stab"]	stab	injury		
+["inward", "complaint"]	inward complaint	injury		
+["fracture"]	fracture	injury		
+["fractures"]	fractures	injury		
+["fractures", "&", "dislocations"]	fractures & dislocations	injury		
+["fractures", "(sundry)"]	fractures (sundry)	injury		
+["bruise"]	fracture	injury		
+["needle", "in", "her"]	needle in her	injury		
+["run", "over"]	run over	injury		
+
+["wounds"]		injury		
+["wounds", ","]		injury postscript		
+["wounds", "."]		injury postscript		
+["wounds", ";"]		injury postscript		
+
+["amputated"]		injury		
+["amputated", ","]		injury postscript		
+["amputated", "."]		injury postscript		
+["amputated", ";"]		injury postscript		
+
+["by", "a", "dog"]	by a dog	cause		
+["by", "a", "fall"]	by a fall	cause		
+["by", "a", "boar"]	by a boar	cause		
+["by", "a", "horse"]	by a horse	cause		
+["by", "a", "musket", "ball"]	by a musket ball	cause		
+["by", "a", "cart"]	by a cart	cause		
+["cart", "accident"]	cart accident	cause		
+["his", "cart"]	his cart	cause		
+["a", "cart"]	a cart	cause		
+["by", "a", "ball"]	by a cart	cause		
+["from", "blows"]	from blows	cause		
+["from", "blow"]	from blow	cause		
+["from", "a", "fall"]	from a fall	cause		
+["from", "a", "blow"]	from a blow	cause		
+["gun", "shot"]	gun shot	cause		
+["fall"]	fall	cause		
+
+
+
+End of terms added for the hospital records
+
+
+
+
+
+
+
+
+				
+["scar"]	scar	injury		
+["scars"]	scars	injury		
+["burn"]	burn	injury		
+["burns"]	burns	injury		
+["burn", "scar"]	burn scar	injury		
+["burn", "scars"]	burn scars	injury		
+["burn", "mark"]	burn mark	injury		
+["burn", "marks"]	burn marks	injury		
+["cut"]	cut	injury		
+["cuts"]	cuts	injury		
+["wound"]	wound	injury		
+["wound", "cut"]	wound cut	injury		
+["scald"]	scald	injury		
+["blind"]	blind	injury		
+["defective"]	defective	injury		
+["deformed"]	deformed	injury		
+["scarred"]	scarred	injury		
+["broken"]	broken	injury		
+["defect"]	defect	injury		
+["lost"]	lost	injury		
+["missing"]	missing	injury		
+["contracted"]	contracted	injury		
+##["swelling"]	swelling	injury		
+["lame"]	lame	injury		
+["injured"]	injured	injury		
+["ruptured"]	ruptured	injury		
+["dislocated"]	dislocated	injury		
+["disfigured"]	disfigured	injury		
+["split"]	split	injury		
+["fractured"]	fractured	injury		
+##["lump"]	lump	injury		
+["lumps"]	lumps	injury		
+["cast"]	cast	injury		
+["torn"]	torn	injury		
+
+["blue", "cut"]	blue cut	injury
+["blue", "mark"]	blue mark	injury
+["blue", "dot"]	blue dot	injury
+["blue", "cuts"]	blue cuts	injury
+["blue", "marks"]	blue marks	injury
+["blue", "dots"]	blue dots	injury
+["blue", "scar"]	blue scar	injury
+["blue", "scars"]	blue scars	injury
+["purple", "mark"]	purple mark	injury
+["purple", "marks"]	purple marks	injury
+["coal", "scar"]	coal scar	injury		
+["coal", "scars"]	coal scars	injury		
+["coal", "mark"]	coal mark	injury		
+["coal", "marks"]	coal marks	injury		
+["coal", "sear"]	coal sear	injury		
+["coal", "sears"]	coal sears	injury		
+["deficient", "of"]	deficient of	injury		
+["cut", "mark"]	cut mark	injury		
+["cut", "marks"]	cut marks	injury		
+["red", "mark"]	red marks	injury
+["red", "marks"]	red marks	injury
+
+["knocked", "up"]	knocked up	injury		
+["lost", "part"]	lost part	injury		
+["lost", "part", "of"]	lost part of	injury		
+["bent"]	bent	injury		
+["bent", "to", "left"]	bent to left	injury		
+["bent", "to", "right"]	bent to right	injury		
+["inclined", "to", "left"]	inclined to left	injury		
+["inclined", "to", "right"]	inclined to right	injury		
+
+["has", "been", "fractured"]	fractured postscript	injury postscript		
+["has", "been", "injured"]	injured postscript	injury postscript		
+["has", "been", "broken"]	broken postscript	injury postscript		
+				
+["been", "fractured"]	fractured postscript	injury postscript		
+["been", "injured"]	injured postscript	injury postscript		
+["been", "broken"]	broken postscript	injury postscript		
+				
+["fractured", ","]	fractured postscript	injury postscript		
+["fractured", "."]	fractured postscript	injury postscript		
+["fractured", ";"]	fractured postscript	injury postscript		
+["broken", ","]	broken postscript	injury postscript		
+["broken", "."]	broken postscript	injury postscript		
+["broken", ";"]	broken postscript	injury postscript		
+["wound", ","]	wound postscript	injury postscript		
+["wound", "."]	wound postscript	injury postscript		
+["wound", ";"]	wound postscript	injury postscript		
+["displaced", ","]	displaced postscript	injury postscript		
+["displaced", "."]	displaced postscript	injury postscript		
+["displaced", ";"]	displaced postscript	injury postscript		
+["deformed", ","]	deformed postscript	injury postscript		
+["deformed", "."]	deformed postscript	injury postscript		
+["deformed", ";"]	deformed postscript	injury postscript		
+["crooked", ","]	crooked postscript	injury postscript		
+["crooked", "."]	crooked postscript	injury postscript		
+["crooked", ";"]	crooked postscript	injury postscript		
+["burned", ","]	crooked postscript	injury postscript		
+["burned", "."]	crooked postscript	injury postscript		
+["burned", ";"]	crooked postscript	injury postscript		
+["bent", ","]	bent postscript	injury postscript		
+["bent", "."]	bent postscript	injury postscript		
+["bent", ";"]	bent postscript	injury postscript		
+["crippled", ","]	crippled postscript	injury postscript		
+["crippled", "."]	crippled postscript	injury postscript		
+["crippled", ";"]	crippled postscript	injury postscript		
+["defective", ","]	defective postscript	injury postscript		
+["defective", "."]	defective postscript	injury postscript		
+["defective", ";"]	defective postscript	injury postscript		
+["contracted", ","]	contracted postscript	injury postscript		
+["contracted", "."]	contracted postscript	injury postscript		
+["contracted", ";"]	contracted postscript	injury postscript		
+["missing", ","]	missing postscript	injury postscript		
+["missing", "."]	missing postscript	injury postscript		
+["missing", ";"]	missing postscript	injury postscript		
+["lame", ","]	lame postscript	injury postscript		
+["lame", "."]	lame postscript	injury postscript		
+["lame", ";"]	lame postscript	injury postscript		
+["injured", ","]	injured postscript	injury postscript		
+["injured", "."]	injured postscript	injury postscript		
+["injured", ";"]	injured postscript	injury postscript		
+["dislocated", ","]	dislocated postscript	injury postscript		
+["dislocated", "."]	dislocated postscript	injury postscript		
+["dislocated", ";"]	dislocated postscript	injury postscript		
+["disfigured", ","]	disfigured postscript	injury postscript		
+["disfigured", "."]	disfigured postscript	injury postscript		
+["disfigured", ";"]	disfigured postscript	injury postscript		
+["split", ","]	split postscript	injury postscript		
+["split", "."]	split postscript	injury postscript		
+["split", ";"]	split postscript	injury postscript		
+["cast", ","]	cast postscript	injury postscript		
+["cast", "."]	cast postscript	injury postscript		
+["cast", ";"]	cast postscript	injury postscript		
+["torn", ","]	torn postscript	injury postscript		
+["torn", "."]	torn postscript	injury postscript		
+["torn", ";"]	torn postscript	injury postscript		
+["deficient", ","]	deficient postscript	injury postscript		
+["deficient", "."]	deficient postscript	injury postscript		
+["deficient", ";"]	deficient postscript	injury postscript		
+
+["knocked", "up", ","]	knocked up postscript	injury postscript		
+["knocked", "up", "."]	knocked up postscript	injury postscript		
+["knocked", "up", ";"]	knocked up postscript	injury postscript		
+
+["teeth", "false"]	false teeth	body specific injury		
+["false", "teeth"]	false teeth	body specific injury		
+
+["crippled"]	crippled	injury		
+
+["d", "on", "left", "side"]	branded d	injury		
+["d", "left", "side"]	branded d	injury		
+["branded", "d"]	branded d	injury		
+["branded"]	branded	injury		
+["branded", "letter", "d"]	branded d	injury		
+["marks", "of", "punishment"]	marks of punishment	injury		
+["marks", "of", "corporal", "punishment"]	marks of corporal punishment	injury		
+["marks", "of", "flagellation"]	marks of flagellation	injury		
+["marks", "of", "flog"]	marks of flogging	injury		
+["marks", "of", "flogging"]	marks of flogging	injury		
+["marks", "of", "hogging"]	marks of flogging	injury		
+["ear", "slit"]	ear slit	injury		
+["flogging"]	flogging	injury		
+["flogging", "marks"]	flogging marks	injury		
+
+["left", "side"]	left side	body		
+["right", "side"]	right side	body		
+
+
+
+
+
+
+
+
+
+				
+["wasted", ","]	wasted postscript	description postscript		
+["wasted", "."]	wasted postscript	description postscript		
+["wasted", ";"]	wasted postscript	description postscript		
+
+["a", "jew"]	a jew	raceethnicity		
+["african"]	african	raceethnicity		
+["born", "at", "calcutta"]	born at calcutta	raceethnicity		
+["circumcised"]	circumcised	raceethnicity		
+["man", "of", "colour"]	man of colour	raceethnicity		
+["woman", "of", "colour"]	woman of colour	raceethnicity		
+["coloured", "man"]	coloured man	raceethnicity		
+["coloured", "woman"]	coloured woman	raceethnicity		
+["creole"]	creole	raceethnicity		
+["jew"]	jew	raceethnicity		
+["jewish"]	jewish	raceethnicity		
+["melatto"]	melatto	raceethnicity		
+["mulatto"]	mulatto	raceethnicity		
+["negress"]	negress	raceethnicity		
+["negro"]	negro	raceethnicity		
+				
+				
+				
+["dieu", "et", "mon", "droit"]	dieu and mon droit	written words	britain nationalidentity	
+["i", "love", "you"]	i love you	written words	love	
+["faith", ",", "hope", "and", "charity"]	faith hope and charity	written words	religion	
+["advance", "australia"]	advance australia	written words	australia nationalidentity	
+["true", "love"]		written words	love	
+["death", "before", "dishonour"]		written words	military	
+["hope", "and", "charity"]		written words	religion	
+["prepare", "to", "meet", "thy", "god"]		written words	religion	
+["Love", "God", "and", "hate", "evil", "Liberty", "for", "ever"]	Love God and hate evil Liberty for ever	written words	religion	
+				
+				
+				
+["sun", ",", "moon", "and", "stars"]	sun moon and stars	design	reigion astronomy	
+["sun"]	sun	design	astronomy	
+["moon"]	moon	design	astronomy	
+["stars"]	sun	design	astronomy	
+["rising", "sun"]	rising sun	design	astronomy	
+				
+["Womans head"]	woman's head	design		
+["Mans head"]	man's head	design		
+["two mens heads"]	two men's heads	design		
+["two womens heads"]	two women's heads	design		
+["woman head"]	woman's head	design		
+["man head"]	man's head	design		
+				
+				
+["horseshoe"]	horseshoe	design		
+["horse", "shoe"]	horseshoe	design		
+["horse", "shoe", "and", "spray"]	horseshoe	design		
+["horse's", "shoe"]	horseshoe	design		
+["horse's", "head"]	horse's head	design		
+["horseback"]	horseback	design		
+["horse", "back"]	horseback	design		
+["woman", "on", "horse"]	woman on horse	design	pleasure	
+				
+["sailor", "with", "flags"]	sailor with flags	design	naval nationalidentity	
+["soldier", "with", "bugle"]	soldier with bugle	design	military	
+["foul", "anchor"]	foul anchor	design	naval	
+["part", "anchor"]	part anchor	design	naval	
+["woman's", "head"]	woman's head	design		
+["man's", "head"]	man's head	design		
+["dog's", "head"]	dog's head	design		
+["man's", "bust"]	man's bust	design		
+["bust", "of", "woman"]	bust of female	design		
+["bust", "of", "female"]	bust of female	design		
+["bust", "of", "girl"]	bust of female	design		
+["bust", "of", "boy"]	bust of boy	design		
+["bust", "of", "buffalo", "bill"]	bust of buffalo bill	design	america nationalidentity	
+				
+				
+				
+				
+				
+				
+				
+				
+["woman's", "bust"]	woman's bust	design		
+["sentry", "box"]	sentry box	design	military	
+["two", "birds"]	two birds	design	love nature	
+["sailor", "and", "flag"]	sailor and flag	design	naval nationalidentity	
+["cross", "and", "lion"]	cross and lion	design	britain nationalidentity	
+["woman", "with", "flag"]	woman with flag	design	nationalidentity	
+["sailor", "with", "flag"]	sailor with flag	design	nationalidentity	
+["bust", "of", "sailor"]	bust of sailor	design	naval	
+["buffallo", "bill"]	buffallo bill	design	america nationalidentity	
+["staffordshire", "knot"]	staffordshire knot	design		
+["woman", "standing", "on", "one", "leg"]	woman standing on one leg	design	pleasure	
+["woman", "on", "monument"]	woman on monument	design		
+["woman", "with", "crown", "and", "snake"]	woman with crown and snake	design		
+["lion", "and", "bust", "of", "man"]	lion and bust of man	design		
+["three", "women"]	three women	design		
+["elephant"]	elephant	design	nature	
+["dog", "with", "cross", "on", "back"]	dog with cross on back	design		
+["cross", "swords", "and", "crown"]	cross swords and crown	design	military britain nationalidentity	
+["cross", "swords", "and", "cross", "flags"]	cross swords and cross flags	design	military nationalidentity	
+["two", "women", "(", "one", "holding", "glass", ")"]	two women (one holding glass)	design	pleasure	
+["cross", "swords", "and", "three", "stars"]	cross swords and three stars	design	military	
+["two", "females"]	two females	design		
+["part", "bracelet"]	part bracelet	design	jewellery	
+				
+["cross", "flags"]	cross flags	design	nationalidentity	
+["flags"]	flags	design	nationalidentity	
+["flag"]	flag	design	nationalidentity	
+				
+["american", "flag"]	american flag	design	america nationalidentity	
+["american", "flags"]	american flags	design	america nationalidentity	
+["united", "states"]	united states	design	america nationalidentity	
+["liberty"]	liberty	design	america nationalidentity	
+["american", "eagle"]	american eagle	design	america nationalidentity	
+["eagle"]	eagle	design	america nationalidentity	
+["independance"]	independance	design	america nationalidentity	
+["stars", "and", "stripes"]	stars and stripes	design	america nationalidentity	
+["buffalo", "bill"]	buffalo bill	design	america nationalidentity	
+["american", "coat", "of", "arms"]	american coat of arms	design	america nationalidentity	
+["american", "colours"]	american colours	design	america nationalidentity	
+				
+["kangaroo"]	kangaroo	design	australia nationalidentity	
+["australia"]	australia	design	australia nationalidentity	
+				
+["britannia"]	britannia	design	britain nationalidentity	
+["thistle"]	thistle	design	britain nationalidentity	
+["crown"]	crown	design	britain nationalidentity	
+["bulldog"]	bulldog	design	britain nationalidentity	
+["bulldogs"]	bulldogs	design	britain nationalidentity	
+				
+["england", "expects", "every", "man", "to", "do", "his", "duty"]	england expects every man to do his duty	written words	britain nationalidentity	
+["fear", "god", "and", "honor", "the", "king"]	fear god and honour the king	written words	britain nationalidentity	
+["head", "of", "king", "and", "queen"]	head of king and queen	design	britain nationalidentity	
+["shamrock", "and", "thistle"]	shamrock and thistle	design	britain nationalidentity	
+["union", "jack"]	union jack	design	britain nationalidentity	
+["prince", "of", "wales"]	prince of wales	design	britain nationalidentity	
+["prince", "of", "wales", "feathers"]	prince of wales feathers	design	britain nationalidentity	
+["prince", "of", "wales'", "feathers"]	prince of wales feathers	design	britain nationalidentity	
+["saint", "george"]	saint george	design	britain nationalidentity	
+["st", ".", "george"]	saint george	design	britain nationalidentity	
+["st", "george"]	saint george	design	britain nationalidentity	
+["england"]	england	design	britain nationalidentity	
+["wales"]	wales	design	britain nationalidentity	
+["king"]	king	design	britain nationalidentity	
+["queen", "victoria"]	queen victoria	design	britain nationalidentity	
+["queen"]	queen	design	britain nationalidentity	
+["victoria"]	victoria	design	britain nationalidentity	
+				
+["dick", "turpin"]	dick turpin	design		
+				
+				
+				
+				
+				
+				
+["skull", "and", "crossbones"]	skull and crossbones	design	death	
+["skull", "and", "cross", "bones"]	skull and crossbones	design	death	
+["skull", "and", "crossed", "bones"]	skull and crossbones	design	death	
+["death's", "head"]		design	death	
+["grave"]		design	death	
+["tomb"]		design	death	
+["tombstone"]		design	death	
+["death"]		design	death	
+				
+["forget", "me", "not"]		design	love	
+["devil"]		design		
+["independence"]		design		
+["king's", "evil"]	king's evil	stop		
+["kings", "evil"]	king's evil	stop		
+["airplane"]		design	invention	
+["balloon"]		design	invention	
+["bicycle"]		design	invention	
+["cycle"]		design	invention	
+["camera"]		design	invention	
+["locomotive"]		design	invention	
+["engine"]		design	invention	
+["parachute"]		design	invention	
+["propeller"]		design	invention	
+				
+["erin", "go", "bragh"]		design	ireland nationalidentity	
+["shamrock"]		design	ireland nationalidentity	
+["harp"]		design	ireland nationalidentity	
+				
+["thou", "shall", "not", "steal"]		written words	justicepunishment	
+["broad", "arrow"]		design	justicepunishment	
+["whip"]		design	justicepunishment	
+["hanging"]		design	justicepunishment	
+["gallows"]		design	justicepunishment	
+["gibbet"]		design	justicepunishment	
+["handcuffs"]		design	justicepunishment	
+["justice"]		design	justicepunishment	
+["policeman"]		design	justicepunishment	
+["scales"]		design	justicepunishment	
+				
+["pierced", "heart"]		design	love	
+["my", "dear"]		written words	love	
+["remember", "me"]		written words	love	
+["woman", "and", "man"]		design	love	
+["man", "and", "woman"]		design	love	
+["woman", "and", "sailor"]		design	love	
+["sailor", "and", "woman"]		design	love	
+["soldier", "and", "woman"]		design	love	
+["woman", "and", "soldier"]		design	love	
+["hand", "in", "hand"]		design	love	
+["heart"]		design	love	
+				
+["baden", "powell"]		design	military	
+["banners", "of", "war"]		design	military	
+["cross", "swords"]		design	military	
+["pile", "of", "shot"]		design	military	
+["general", "buller"]		design	military	
+["lord", "kitchener"]		design	military	
+["revolver"]		design	military	
+["bugle"]		design	military	
+["spear"]		design	military	
+["cannon"]		design	military	
+["gun"]		design	military	
+["sword"]		design	military	
+["pistol"]		design	military	
+["rifle"]		design	military	
+["musket"]		design	military	
+				
+["maltese", "cross"]	maltese cross	design	military	
+["badem", "powell"]	badem powell	design	military	
+["woman", "and", "ball"]	woman and ball	design	pleasure	
+["woman", "on", "ball"]	woman on ball	design	pleasure	
+["flower", "pots"]	flower pots	design	nature	
+["flowerpot"]	flowerpot	design	nature	
+["bathing", "costume"]	bathing costume	design	pleasure	
+["dot", "as", "dash"]	dot as dash	design	invention	
+["dick", "whittington", "and", "cat"]	dick whittington and cat	design	britain nationalidentity	
+["bust", "of", "general", "buller"]	bust of general buller	design	military	
+["japanese", "woman"]	japanese woman	design		
+["flags", "of", "all", "nations"]	flags of all nations	design	nationalidentity	
+["tomb", "stone"]	tombstone	design	death	
+["woman", "in", "tights"]	woman in tights	design	pleasure	
+				
+				
+["flower", "pot"]		design	nature	
+["basket", "of", "flowers"]		design	nature	
+["bunch", "of", "grapes"]		design	nature	
+["bunch", "of", "flowers"]		design	nature	
+["animal"]		design	nature	
+["lizard"]		design	nature	
+["tree"]		design	nature	
+["butterfly"]		design	nature	
+["bird"]		design	nature	
+["snake"]		design	nature	
+["rose"]		design	nature	
+["flower"]		design	nature	
+["grapes"]		design	nature	
+["barque"]		design	naval	
+				
+["sail"]		design	naval	
+["brig"]		design	naval	
+["yacht"]		design	naval	
+["boat"]		design	naval	
+["mariner"]		design	naval	
+["fish"]		design	naval	
+["ship"]		design	naval	
+["sailor"]		design	naval	
+["anchor"]		design	naval	
+["mermaid"]		design	naval	
+["mermd"]	mermaid	design	naval	
+				
+["neptune"]		design	naval	
+				
+["hammer"]		design		
+["compass"]		design		
+["trowel"]		design		
+["plumb"]		design		
+["level"]		design		
+				
+["spades", ",", "clubs", ",", "diamonds", ", ", "hearts"]		design	pleasure	
+["diamonds"]		design	pleasure	
+["hearts"]		design	pleasure	
+["dancing", "girl"]		design	pleasure	
+["barrel"]		design	pleasure	
+["bottle"]		design	pleasure	
+["glass"]		design	pleasure	
+["jockey"]		design	pleasure	
+["pipe"]		design	pleasure	
+["diamond"]		design	pleasure	
+["spades"]		design	pleasure	
+["clubs"]		design	pleasure	
+["pugilist"]		design	pleasure	
+["dancing"]		design	pleasure	
+["boxing"]		design	pleasure	
+["cask"]		design	pleasure	
+["rum"]		design	pleasure	
+["drinking"]		design	pleasure	
+["fiddle"]		design	pleasure	
+["wine"]		design	pleasure	
+["cards"]		design	pleasure	
+["dice"]		design	pleasure	
+["tobacco"]		design	pleasure	
+["racing"]		design	pleasure	
+["dog"]		design	pleasure	
+["cock"]		design	pleasure	
+["whippet"]		design	pleasure	
+["jug "]		design	pleasure	
+["decanter"]		design	pleasure	
+				
+["seven", "candlesticks"]		design	religion	
+["seven", "stars"]		design	religion	
+["adam", "and", "eve"]		design	religion	
+["christ"]		design	religion	
+["jesus"]		design	religion	
+["god"]		design	religion	
+["crucifixion"]		design	religion	
+["crucifix"]		design	religion	
+["cross"]		design	religion	
+["faith"]		design	religion	
+["inri"]		design	religion	
+["ir"]		design	religion	
+["ihs"]		design	religion	
+["salvation"]		design	religion	
+["angel"]		design	religion	
+["saint"]		design	religion	
+				
+["nude"]		design	sex	
+["indecent"]		design	sex	
+["naked"]		design	sex	
+["cunt"]		design	sex	
+["obscene"]		design	sex	
+				
+["clasped", "hands"]		design	religion	
+["crossed", "flags"]		design	nationalidentity	
+["crossed", "daggers"]		design		
+["coat", "of", "arms"]		design		
+				
+				
+				
+["bracelet"]	bracelet	design	jewellery	
+["female"]	female	design		
+["flowers"]	flowers	design	nature	
+["letter"]	letter	design		
+["letters"]	letters	design		
+["dagger"]	dagger	design		
+["crow"]	crow	design	nature	
+["line"]	line	design		
+["lines"]	lines	design		
+["ring"]	ring	design	jewellery	
+["rings"]	rings	design	jewellery	
+["horse"]	horse	design	nature	
+				
+				
+				
+["front", "of"]	front of	body specifier		
+["joint", "of"]	joint of	body specifier		
+["centre", "and", "left", "of"]	centre	body specifier		
+["inside"]	inside	body specifier		
+["ins"]	inside	body specifier		
+["with"]	with	body specifier		
+["first", "joint"]	first joint	body specifier		
+				
+["shoulder", "joint"]	shoulder	body		
+["elbow", "joint"]	elbow	body		
+				
+["head"]	head	body		
+				
+["left", "side", "of", "forehead"]	left side of forehead	body		
+["right", "side", "of", "forehead"]	right side of forehead	body		
+["centre", "of", "forehead"]	centre of forehead	body		
+				
+["centre", "forehead"]	centre of forehead	body		
+["forehead"]	forehead	body		
+["scalp"]	scalp	body		
+			
+["eyebrow"]	eyebrow	body		
+["eyebrows"]	eyebrows	body		
+				
+["above", "left", "eye"]	above left eye	body		
+				
+["above", "right", "eye"]	above right eye	body		
+				
+["left", "eye"]	left eye	body		
+				
+["right", "eye"]	right eye	body		
+				
+["eyes"]	eyes	body		
+["eye"]	eye	body		
+				
+["bridge", "of", "nose"]	bridge of nose	body		
+["bridge", "nose"]	bridge of nose	body		
+["left", "side", "of", "nose"]	left side of nose	body		
+				
+["ear"]	ear	body		
+["ears"]	ears	body		
+				
+["tip", "of", "nose"]	tip of nose	body		
+				
+["nose"]	nose	body		
+				
+["left", "nostril"]	left nostril	body		
+["right", "nostril"]	right nostril	body		
+				
+["left", "cheek"]	left cheek	body		
+				
+["right", "cheek"]	right cheek	body		
+				
+["cheekbone"]	cheekbone	body		
+["cheek", "bone"]	cheek bone	body		
+				
+["cheek"]	cheek	body		
+["cheeks"]	cheeks	body		
+				
+["right", "neck", "near", "right", "ear"]	right neck near right ear	body		
+["left", "of", "neck"]	left of neck	body		
+["neck"]	neck	body		
+				
+["shoulder", "blade"]	shoulder blade	body		
+["shoulder", "blades"]	shoulder blades	body		
+["shoulders"]	shoulders	body		
+["shoulder"]	shoulder	body		
+				
+["collar", "bone"]	collar bone	body		
+				
+["back"]		body specifier		
+["back", "of"]		body specifier		
+["right", "of"]		body specifier		
+["left", "of"]		body specifier		
+		
+["back", ","]		body		
+["back", "."]		body		
+["back", "and"]		body		
+
+				
+["rib"]	rib	body		
+["ribs"]	ribs	body		
+				
+["upper", "part", "left", "arm"]	upper part left arm	body		
+["upper", "part", "right", "arm"]	upper part right arm	body		
+				
+["left", "arm"]	left arm	body		
+["right", "arm"]	right arm	body		
+				
+["arm"]	arm	body		
+				
+["both", "arms"]	both arms	body		
+				
+["arms"]	arms	body		
+				
+["arm", "pit"]	armpit	body		
+["armpit"]	armpit	body		
+				
+["left", "forearm"]	left forearm	body		
+["right", "forearm"]	right forearm	body		
+				
+["forearm"]	forearm	body		
+				
+["elbow", "left", "arm"]	elbow left arm	body		
+["elbow", "right", "arm"]	elbow right arm	body		
+["elbow"]	elbow	body		
+				
+				
+				
+["left", "hand"]	left hand	body		
+["right", "hand"]	right hand	body		
+				
+["both", "hands"]	both hands	body		
+				
+["hands"]	hands	body		
+				
+["first", "left", "finger"]	first left finger	body		
+				
+["second", "left", "finger"]	second left finger	body		
+				
+["third", "left", "finger"]	third left finger	body		
+				
+["fourth", "left", "finger"]	fourth left finger	body		
+				
+["first", "right", "finger"]	first right finger	body		
+				
+["second", "right", "finger"]	second right finger	body		
+				
+["third", "right", "finger"]	third right finger	body		
+				
+["fourth", "right", "finger"]	fourth right finger	body		
+				
+["forefinger", "left", "hand"]	forefinger left hand	body		
+["forefinger", "right", "hand"]	forefinger right hand	body		
+				
+["finger", "left", "hand"]	finger left hand	body		
+["finger", "right", "hand"]	finger right hand	body		
+				
+["finger"]	finger	body		
+["fingers"]	fingers	body		
+				
+["fingernail"]	fingernail	body		
+["fingernails"]	fingernails	body		
+				
+["thumb"]	thumb	body		
+["left", "thumb"]	left thumb	body		
+["right", "thumb"]	right thumb	body		
+				
+["left hip"]	left hip	body		
+				
+["right", "hip"]	right hip	body		
+				
+["hips"]	hips	body		
+["hip"]	hip	body		
+				
+["left", "buttock"]	left buttock	body		
+				
+["right", "buttock"]	right buttock	body		
+				
+["buttocks"]	buttocks	body		
+["buttock"]	buttock	body		
+				
+["knee", "cap"]	knee cap	body		
+["both", "knees"]	both knees	body		
+				
+["knee"]	knee	body		
+["knees"]	knees	body		
+			
+["left", "leg"]	left leg	body		
+["right", "leg"]	right leg	body		
+["both", "legs"]	both legs	body		
+["each", "leg"]	each leg	body		
+				
+["tattoo", "mark"]	tattoo mark	tattoo mark		
+["tattoo", "marks"]	tattoo marks	tattoo mark		
+["dot"]	dot	tattoo mark		
+["dots"]	dot	tattoo mark		
+["indian", "ink"]	indian ink	tattoo mark		
+["ink"]	ink	tattoo mark		
+				
+["birth", "mark"]	birthmark	mark		
+["birthmark"]	birthmark	mark		
+["mole"]	mole	mark		
+["moles"]	moles	mark		
+["abscess", "scar"]	abscess scar	mark		
+["abscess", "scars"]	abscess scars	mark		
+["acne"]	acne	mark		
+["boil"]	boil	mark		
+["boil", "scar"]	boil scar	mark		
+["boil", "scars"]	boil scar	mark		
+["scurvy"]	scurvy	mark		
+["varicose", "veins"]	varicose veins	adjective		
+				
+				
+				
+["left", ","]	left hanging body specifier	hanging body specifier		
+["right", ","]	right hanging body specifier	hanging body specifier		
+["left", "and"]	left hanging body specifier	hanging body specifier		
+["right", "and"]	right hanging body specifier	hanging body specifier		
+				
+["left", "."]	left following body specifier	following body specifier		
+["right", "."]	right following body specifier	following body specifier		
+				
+				
+["small"]	small	adjective		
+["large"]	large	adjective		
+##["faint"]	faint	adjective		
+["slightly"]	slightly	adjective		
+["indistinct"]	indistinct	adjective		
+["long"]	long	adjective		
+["v", "shaped"]	v shaped	adjective		
+##["fleshy"]	fleshy	adjective		
+##["sunken"]	sunken	adjective		
+##["freckled"]	freckled	adjective		
+				
+				
+				
+["blue"]	blue	colour		
+##["brown"]	brown	colour		
+["white"]	white	colour		
+["black"]	black	colour		
+["grey"]	grey	colour		
+["red"]	red	colour		
+["hazel"]	hazel	colour		
+["light"]	light	colour		
+				
+["two"]	two	number		
+["2"]	two	number		
+				
+["pockmark"]	pockmarked	general description		
+["pock", "marked"]	pockmarked	general description		
+["pox"]	pockmarked	general description		
+["ppitted"]	pockmarked	general description		
+["p", ".", "pitted"]	pockmarked	general description		
+["pock", "pitted"]	pockmarked	general description		
+["pockpitted"]	pockmarked	general description		
+["pockmarked"]	pockmarked	general description		
+["deaf"]	deaf	general description		
+["speech", "impediment"]	speech impediment	general description		
+				
+				
+				
+				
+["ears", "pierced"]	ears pierced	general description		
+["pierced", "ears"]	ears pierced	general description		
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+["crosse"]	cross	design	religion	
+["star"]	star	design	astronomy	
+["man"]	man	design		
+["woman"]	woman	design		
+["ballet"]	ballet	design		
+["girl"]	girl	design		
+["castle"]	castle	design		
+["scroll"]	scroll	design		
+["pansy"]	pansy	design	nature	
+["shield"]	shield	design		
+["man's"]	man'	design		
+["woman's"]	woman'	design		
+["shoe"]	shoe	design		
+["pot"]	pot	design		
+["stroke"]	stroke	design		
+["arrow"]	arrow	design		
+["tail"]	tail	design		
+["crescent"]	crescent	design		
+["maltese"]	maltese	design		
+["men"]	men	design		
+["pedestal"]	pedestal	design		
+["attitude"]	attitude	design		
+["figure"]	figure	design		
+["spray"]	spray	design		
+["cushion"]	cushion	design		
+["wheel"]	wheel	design		
+["women"]	women	design		
+["hope"]	hope	design		
+["charity"]	charity	design		
+["forget"]	forget	design		
+["design"]	design	design		
+["clasped"]	clasped	design		
+["kettle"]	kettle	possible surname		
+["wreath"]	wreath	design	death	
+["web"]	web	body specifier		
+["half"]	half	design		
+["dart"]	dart	design		
+["coat"]	coat	design		
+["pricked"]	pricked	mark		
+["serpent"]	serpent	design		
+["monument"]	monument	design		
+["child"]	child	design		
+["drum"]	drum	design		
+["goddess"]	goddes	design		
+["chinaman"]	chinaman	design	raceethnicity	
+["british"]	british	design	britain nationalidentity	
+["cornish"]	cornish	design		
+["sale"]	sale	design		
+["english"]	english	design	britain nationalidentity	
+["violin"]	violin	design	pleasure	
+["laurel"]	laurel	design		
+["vase"]	vase	design		
+["clown"]	clown	design	pleasure	
+["free"]	free	design		
+["cutlas"]	cutlas	design	naval	
+["my"]	my	written words		
+["actress"]	actres	design	pleasure	actress
+["playing"]	playing	design	pleasure	
+["you"]	you	written words		
+["standing"]	standing	design		
+["burmese"]	burmese	design		
+["women's"]	women	design		
+				
+["palm", "tree"]	palm tree	design	nature	
+["palm", "and", "snake"]	palm and snake	design	nature	
+["palm"]	palm	design	nature	
+["palm", "left", "hand"]	palm left hand	body		
+["palm", "right", "hand"]	palm right hand	body		
+["in", "palm"]	in palm	body		
+["on", "palm"]	on palm	body		
+				
+["hand"]	hand	body		
+["mouth"]	mouth	body		
+["wrist"]	wrist	body		
+["wrists"]	wrist	body		
+["teeth"]	teeth	body		
+["tooth"]	tooth	body		
+["breast"]	breast	body		
+["chest"]	chest	body		
+["groin"]	groin	body		
+["thigh"]	thigh	body		
+["ankle"]	ankle	body		
+["ankles"]	ankles	body		
+["face"]	face	body		
+["navel"]	navel	body		
+["upperarm"]	upperarm	body		
+["feet"]	feet	body		
+["shin"]	shin	body		
+["throat"]	throat	body		
+["belly"]	belly	body		
+["kneecap"]	kneecap	body		
+["vein"]	vein	body		
+["chin"]	chin	body		
+["temple"]	temple	body		
+["lip"]	lip	body		
+["loin"]	loin	body		
+["calf"]	calf	body		
+["forefinger"]	forefinger	body		
+["hair"]	hair	body		
+["jaw"]	jaw	body		
+["bone"]	bone	body		
+["nail"]	nail	body		
+["foot"]	foot	body		
+["toe"]	toe	body		
+["toes"]	toes	body		
+["fore"]	fore	body		
+["eyelid"]	eyelid	body		
+["nipple"]	nipple	body		
+["stomach"]	stomach	body		
+["shoulderblade"]	shoulderblade	body		
+["body"]	body	body		
+["knuckle"]	knuckle	body		
+				
+["mark"]	mark	mark		
+["marks"]	marks	mark		
+["marked"]	marked	mark		
+##["burnt"]	burnt	mark		
+["wart"]	wart	mark		
+["spot"]	spot	mark		
+["absces"]	absces	mark		
+["tumour"]	tumour	mark		
+["pierced"]	pierced	mark		
+				
+				
+["in"]	in	body specifier		
+["first"]	first	body specifier		
+["second"]	second	body specifier		
+["2nd"]	second	body specifier		
+["third"]	third	body specifier		
+["fourth"]	fourth	body specifier		
+["front"]	front	body specifier		
+["each"]	each	body specifier		
+["over"]	over	body specifier		
+["under"]	under	body specifier		
+["above"]	above	body specifier		
+["upper"]	upper	body specifier		
+["lower"]	lower	body specifier		
+["left"]	left	body specifier		
+["right"]	right	body specifier		
+["middle"]	middle	body specifier		
+["near"]	near	body specifier		
+["between"]	between	body specifier		
+["top"]	top	body specifier		
+["outside"]	outside	body specifier		
+["base"]	base	body specifier		
+["end"]	end	body specifier		
+["both"]	both	body specifier		
+["bottom"]	bottom	body specifier		
+["corner"]	corner	body specifier		
+["outer"]	outer	body specifier		
+["below"]	below	body specifier		
+["same"]	same	body specifier		
+["at"]	at	body specifier		
+["tip"]	tip	body specifier		
+["across"]	across	body specifier		
+["bend"]	bend	body specifier		
+["centre", "of"]	centre of	body specifier		
+["centre"]	centre	body specifier		
+				
+				
+				
+##["hairy"]	hairy	adjective		
+##["flat"]	flat	adjective		
+["crooked"]	crooked	adjective		
+["blotchy"]	blotchy	adjective		
+["high"]	high	adjective		
+["malformation"]	malformation	adjective		
+##["bald"]	bald	adjective		
+##["dimpled"]	dimpled	adjective		
+["dark"]	dark	adjective		
+["little"]	little	adjective		
+["fair"]	fair	adjective		
+["stout"]	stout	adjective		
+["made"]	made	adjective		
+["fresh"]	fresh	adjective		
+["slight"]	slight	adjective		
+["much"]	much	adjective		
+["sallow"]	sallow	adjective		
+##["very"]	very	adjective		
+["flesh"]	flesh	adjective		
+["mid"]	mid	adjective		
+["inclined"]	inclined	adjective		
+["crushed"]	crushed	adjective		
+["round"]	round	adjective		
+##["stiff"]	stiff	adjective		
+["big"]	big	adjective		
+["nearly"]	nearly	adjective		
+##["weak"]	weak	adjective		
+["deep"]	deep	adjective		
+["obliterated"]	obliterated	adjective		
+##["enlarged"]	enlarged	adjective		
+["deeply"]	deeply	adjective		
+				
+				
+				
+				
+				
+				
+				
+				
+["several"]	several	number		
+["all"]	all	number		
+["one"]	one	number		
+["1"]	one	number		
+["three"]	three	number		
+["3"]	three	number		
+["four"]	four	number		
+["4"]	four	number		
+["five"]	five	number		
+["5"]	five	number		
+["six"]	six	number		
+["6"]	six	number		
+["seven"]	seven	number		
+["7"]	seven	number		
+["eight"]	eight	number		
+["8"]	eight	number		
+["nine"]	nine	number		
+["9"]	nine	number		
+				
+				
+				
+				
+				
+["women's", "head"]	women's head	design		
+				
+				
+["root", "of", "nose"]	root of nose	body		
+				
+				
+["point", "of"]	point of	body specifier		
+["ball", "of"]	ball of	body specifier		
+				
+				
+				
+				
+				
+				
+["london"]		stop		
+["ireland"]		stop		
+				
+				
+["complexion"]		stop		
+["complex"]		stop		
+["aged"]		stop		
+["born"]		stop		
+["soldier"]		stop		
+["labr"]		stop		
+["married"]		stop		
+["kangaroo", "hunting"]		stop		
+["on"]	on	stop		
+["of"]	of	stop		
+["been"]	been	stop		
+["the"]	the	stop		
+["which"]	which	stop		
+["is"]	is	stop		
+["to"]	to	stop		
+["it"]	it	stop		
+["from"]	from	stop		
+["#"]	#	stop		
+["ha"]	ha	stop		
+["###"]	###	stop		
+["an"]	an	stop		
+["ditto"]	ditto	stop		
+["f", ".", "s", "."]	fs	stop		
+["a"]	a	stop		
+["("]	a	stop		
+[")"]	a	stop		
+				
+				
+["crown", "of", "head"]		body		
+["speaks", "english"]		stop		
+["i", "n", "r", "i"]		written words	religion	
+["i", "h", "s"]		written words	religion	
+["h", "i", "s"]		written words	religion	
+["i", "r"]		written words	religion	
+["i", ".", "n", ".", "r", ".",  "i", "."]		written words	religion	
+["i",  ".", "h",  ".", "s",  "."]		written words	religion	
+["h",  ".", "i",  ".", "s",  "."]		written words	religion	
+["i",  ".", "r",  "." ]		written words	religion	
